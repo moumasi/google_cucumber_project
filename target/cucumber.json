@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Print previous close result",
+        "description": "",
+        "id": "it-is-google-finance-application;print-previous-close-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4449896200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open google finance website",
+            "match": {
+              "location": "step_class.open_google_finance_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158983400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Google in serch field",
+            "match": {
+              "location": "step_class.enter_Google_in_serch_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4157550400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Print previous close result",
+            "match": {
+              "location": "step_class.print_previous_close_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3971849300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Print all links count",
+            "match": {
+              "location": "step_class.print_all_links_count()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "It is google finance application",
+    "description": "",
+    "id": "it-is-google-finance-application",
+    "keyword": "Feature",
+    "uri": "result.feature"
+  }
+]
